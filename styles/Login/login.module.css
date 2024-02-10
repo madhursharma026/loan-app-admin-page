@@ -1,0 +1,56 @@
+.ContainerWidth {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.loginBody {
+    background: #2C7CBF;
+    color: white;
+}
+
+.heading {
+    font-size: 3rem;
+    line-height: 3.5rem;
+    font-weight: 700;
+}
+
+.subHeading {
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+}
+
+.liStyle {
+    font-size: 1rem;
+}
+
+.spanStyle {
+    font-size: .85rem;
+    line-height: 1.125rem;
+    font-weight: 500;
+}
+
+.cardStyle {
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+}
+
+.sampleLogoAfterLGScrn {
+    display: none;
+}
+
+@media (min-width: 992px) {
+    .freshdeskLogo {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .sampleLogo {
+        display: none;
+    }
+
+    .sampleLogoAfterLGScrn {
+        display: block;
+    }
+}

@@ -1,0 +1,37 @@
+.ContainerWidth {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.HeaderStyle {
+    background: #0D131F;
+}
+
+.unActiveLink {
+    text-decoration: none;
+}
+
+.activeLink {
+    text-decoration: underline;
+}
+
+/* @media (max-width: 991px) {
+    .HeaderStyle {
+        display: none;
+    }
+}
+ */
+.navOptionsAfterLGScrn{
+    display: none;
+}
+
+@media (max-width: 991px) {
+    .navOptionsBeforeLGScrn {
+        display: none;
+    }
+
+    .navOptionsAfterLGScrn{
+        display: block;
+    }
+}
+
