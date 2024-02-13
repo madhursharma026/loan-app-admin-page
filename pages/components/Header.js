@@ -34,7 +34,7 @@ function HeaderNav(props) {
                             {(userLogin) ?
                                 <>
                                     <Link href='/' className={`${props.pageName === 'userDetails' ? styles.activeLink : styles.unActiveLink} text-white mx-2`}>User Details</Link>
-                                    <Link href='/callDetails' className={`${props.pageName === 'callDetails' ? styles.activeLink : styles.unActiveLink} text-white mx-2`}>Call Details</Link>
+                                    {/* <Link href='/callDetails' className={`${props.pageName === 'callDetails' ? styles.activeLink : styles.unActiveLink} text-white mx-2`}>Call Details</Link> */}
                                     <span onClick={() => logoutUser()} style={{ cursor: 'pointer' }} className={`${props.pageName === 'Logout' ? styles.activeLink : styles.unActiveLink} text-white mx-2`}>Logout</span>
                                 </>
                                 :
@@ -45,7 +45,7 @@ function HeaderNav(props) {
                             {(userLogin) ?
                                 <>
                                     <Link href='/' className={`${props.pageName === 'userDetails' ? styles.activeLink : styles.unActiveLink} text-white mx-2 py-2 mt-3`} style={{ display: 'block' }}>User Details</Link>
-                                    <Link href='/callDetails' className={`${props.pageName === 'callDetails' ? styles.activeLink : styles.unActiveLink} text-white mx-2 py-2`} style={{ display: 'block' }}>Call Details</Link>
+                                    {/* <Link href='/callDetails' className={`${props.pageName === 'callDetails' ? styles.activeLink : styles.unActiveLink} text-white mx-2 py-2`} style={{ display: 'block' }}>Call Details</Link> */}
                                     <span onClick={() => logoutUser()} style={{ cursor: 'pointer' }} className={`${props.pageName === 'Logout' ? styles.activeLink : styles.unActiveLink} text-white mx-2`}>Logout</span>
                                 </>
                                 :
